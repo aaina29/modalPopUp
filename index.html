@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Login button-->
+    <div class="container-btn">
+        <button class="loginbtn">Login</button>
+    </div>
+    <!---MODAL-->
+    <div class="main display-none">
+        <div class="container-form">
+            <div class="cross">
+                <button class="crossbtn">X</button>
+            </div>
+            <div class="side1">
+                <h3>Login</h3>
+                <P>Get access to your Orders, Wishlist and Recommendations</P>
+            </div>
+            <!--Form-->
+            <div class="form">
+                <form method="POST">
+                    <div class="inputfield">
+                        <input type="email" name="loginname">
+                        <label>Enter Email / Phone Number</label>
+                    </div>
+                    <div  class="inputfield">
+                        <input type="password" name="password">
+                        <label>Enter password</label>
+                    </div>
+
+                    <p class="para1">By continuing, you agree to Flipkart's <span style="color:#2874f0;">Terms of Use</span> and <span style="color:#2874f0;">Privacy policy</span.</p>
+                    <div class="bttn1">
+                         <button>Login</button>
+                    </div>
+
+                    <p class="para2">OR</p>
+
+                    <div class="bttn2">
+                        <button>Request OTP</button>
+                    </div>
+                    <p class="para3">New to Flipkart? Create an account</p>
+                </form>
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
